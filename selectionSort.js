@@ -7,6 +7,7 @@ function selectionSort(arry) {
 			if (arry[j] < arry[min]) {
 				min = j;
 			}
+		}
 		if (min != i) {
 			let temp = arry[i]; // temp needs to be the var you are about to change, in this case if we change i first, set i into temp so you don't lose the value of i
 			arry[i] = arry[min]; // simply swap their positions i = min, then next line is min = i
